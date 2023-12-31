@@ -1,0 +1,289 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins : wght@100; 200; 300;400; 500; 600; 700; 800;900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+
+}
+
+
+body{ 
+    font-family: 'Poppins',sans-serif;
+}
+h1{
+font-size: 2.5rem;
+font-weight: 700;}
+h2{
+font-size: 1.8rem;
+font-weight: 600 ;}
+h3 {
+font-size:1.4rem;}
+h4 {
+    font-size: 1. 1rem;
+    font-weight: 600;}
+    h5{
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: 30px;
+    color :#d8d8d8
+}
+    h6 {
+    color: #d8d8d8;
+    
+    }
+    hr{
+        width: 30px;
+        height: 2px;
+        background-color: #0ae819;
+
+    }
+.navbar{
+font-size: 20px;
+top:0;
+left: 0;
+
+}
+.navbar-light .navbar-nav .nav-link{
+padding:0 20px ;
+color: black;
+transition: 0.3s ease;
+
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(0, 255, 136);
+  }
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border : none;
+    background-color: #1d1d1d;
+    cursor: pointer;
+    color :aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+    button:hover{
+background-color: rgb(21, 255, 0);
+
+    }
+    #home {
+        background-image: url(assets/home.png);
+        width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: top 60px center;
+display : flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+    }
+    .co{
+margin-bottom: 300px;
+margin-left: 150px;
+    }
+#home span{
+    color: rgb(26, 255, 0);
+
+
+}
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    position: relative;
+    
+    }
+    #new .one .details{
+    
+        position: absolute;
+        width:100%;
+        height:100%;
+        top: 0;
+        left: 0;
+        transition:0.3S ease ;
+    }
+    #new .one:hover .details{
+    
+      cursor: pointer;
+      background-color: rgba(24, 76, 39, 0.529);
+    }
+    #new .one .details button {
+        display: inline-block;
+        font-size: 30px;
+        font-weight:500;
+        color: #2a2a2a;
+        background: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid #2a2a2a;
+        padding: 2.5px;
+        transform: translateY(70px);
+        transition: 0.3s ease;
+    }
+    #new .one .details button:hover {
+        color: white;
+        border-bottom:1px solid #fff ;}
+#new .one:nth-child(1) .details{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: start;
+align-items: flex-start;
+
+        }
+ #new .one:nth-child(2) .details{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+}  
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+    
+            } 
+            
+    /*products*/
+    .product{
+cursor: pointer;
+margin-bottom: 2rem;
+
+
+    } 
+    .product img{
+transition: 0.3s all;
+
+    }   
+  .product:hover img{
+
+    opacity: 0.7;
+  }    
+  .product .buy{
+background-color: rgb(47, 255, 0);
+transform: translateY(20px);
+opacity: 0;
+transition: 0.3s all;
+
+  }
+  .product:hover .buy{
+
+    transform: translateY(0);
+    opacity: 1;
+  
+    
+      }
+      #banner{
+        background-image: url(assets/cbumshop.jpg);
+        width: 100%;
+height: 60vh;
+background-size: cover;
+background-position: top 70px center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+display : flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+      }
+      #banner1{
+        background-image: url(assets/girl\ .png);
+        width: 100%;
+height: 60vh;
+background-size: cover;
+background-position: top 70px center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+display : flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+      }
+
+
+      #banner1 h4{
+        color: white;
+    }
+    #banner1 h1{
+        color: white;
+    }
+    #banner1 button{
+     background-color: #1ce80a;
+    }
+
+#banner h4{
+    color: white;
+}
+#banner h1{
+    color: white;
+}
+#banner button{
+ background-color: #8fe80a;
+}
+footer{
+background-color: #2a2a2a;
+
+
+}
+footer h5{
+    color: #d8d8d8;
+    font-weight: 700;
+    font-size: 1.2rem;
+    }
+    footer li{
+        padding-bottom: 4px;
+    }
+    footer li a{
+      font-size: 0.8rem;
+      color: #999;
+    }
+    footer li a:hover{
+        font-size: 0.8rem;
+        color: #d8d8d8;
+      }
+      footer p{
+color: #999;
+font-size: 1rem;
+
+
+      }
+      footer .copyright a {
+        color: #000;
+        width: 38px;
+        height: 38px;
+        background-color:#fff;
+        display: inline-block;
+        text-align: center;
+        line-height: 38px;
+        border-radius: 50%;
+        transition: 0.3s ease;
+        margin: 0 5px;}
+        footer .copyright a:hover{
+color: white;
+background-color:rgb(30, 255, 0) ;
+
+
+
+        }
+
+      
+
+
+
+
